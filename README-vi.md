@@ -10,7 +10,7 @@ Other branches contain the model, plus a User Interface following:
 * *mvvm* - Example of Model View ViewModel with Databinding 
 
 
-##Model
+## Model
 
 Mô hình bao gồm Data + State + Business logic.
 

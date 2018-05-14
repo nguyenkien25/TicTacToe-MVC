@@ -10,7 +10,7 @@ Other branches contain the model, plus a User Interface following:
 * *mvvm* - Example of Model View ViewModel with Databinding 
 
 
-##Model
+## Model
 
 The model is the Data + State + Business logic of our Tic-Tac-Toe application.
 It’s the brains of our application so to speak. It is not tied to the view or controller, and because of this, it is reusable in many contexts.
