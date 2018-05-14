@@ -30,6 +30,10 @@ When the View tells the controller that a user clicked a button, the controller 
 Based on data changing in the model, the controller may decide to update the state of the view as appropriate.
 In the case of an Android application, the controller is almost always represented by an Activity or Fragment.
 
+View ([tictactoe.xml](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/res/layout/tictactoe.xml) [menu_tictactoe.xml](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/res/menu/menu_tictactoe.xml))
+---Notify , Setup View --> Controller ([TicTacToeActivity](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/java/com/acme/tictactoe/controller/TicTacToeActivity.java))
+---Interact with--> Model ([Board](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/java/com/acme/tictactoe/model/Board.java) [Cell](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/java/com/acme/tictactoe/model/Cell.java) [Player](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/java/com/acme/tictactoe/model/Player.java))
+
 ## Evaluation
 
 MVC does a great job of separating the model and view.

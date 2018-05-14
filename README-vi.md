@@ -28,6 +28,10 @@ Khi View nói với controller rằng người dùng nhấp vào một nút, con
 Dựa trên dữ liệu thay đổi trong Model, Controller có thể quyết định để cập nhật trạng thái của điểm phù hợp.
 Trong trường hợp của một ứng dụng Android, controller hầu như luôn luôn đại diện bởi một Activity hoặc Fragment.
 
+View ([tictactoe.xml](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/res/layout/tictactoe.xml) [menu_tictactoe.xml](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/res/menu/menu_tictactoe.xml))
+---Notify , Setup View --> Controller ([TicTacToeActivity](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/java/com/acme/tictactoe/controller/TicTacToeActivity.java))
+---Interact with--> Model ([Board](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/java/com/acme/tictactoe/model/Board.java) [Cell](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/java/com/acme/tictactoe/model/Cell.java) [Player](https://github.com/nguyenkien25/TicTacToe-MVC/blob/master/app/src/main/java/com/acme/tictactoe/model/Player.java))
+
 ## Evaluation
 
 MVC làm một việc tuyệt vời của việc tách Model và View.
